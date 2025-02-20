@@ -1,5 +1,5 @@
 body {
-  background-image: url(src/images/bikini-bottom-bg.jpg);
+  background-image: url("src/images/bikini-bottom-bg.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
