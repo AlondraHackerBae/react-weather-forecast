@@ -1,0 +1,57 @@
+body {
+  background-image: url(src/images/bikini-bottom-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.Weather {
+  background-color: #b2869c;
+  border: 2px solid #4b2c7c;
+  border-radius: 10px;
+  box-shadow: rgba(51, 41, 41, 0.9);
+  color: #fef5b4;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px;
+  opacity: 75%;
+}
+.Weather form {
+  margin-bottom: 20px;
+}
+.form-control {
+  opacity: 60% !important;
+  background-color: #85ecf1 !important;
+  border-color: #4b2c7c !important;
+}
+.btn-secondary {
+  background-color: #64c23a !important;
+  border-color: #235104 !important;
+  color: #fef5b4 !important;
+  font-weight: bold !important;
+}
+.Weather h1 {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 29px;
+}
+.Weather ul {
+  margin: 50;
+  padding: 0;
+}
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+img {
+  margin-right: 5px;
+  position: relative;
+  top: -22px;
+}
+.weather-temp {
+  font-size: 50px;
+}
+.weather-unit {
+  position: relative;
+  top: -22px;
+}
