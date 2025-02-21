@@ -4,7 +4,6 @@ import viteLogo from "/vite.svg";
 import Weather from "./Weather";
 import "./Weather.css";
 import "./index.css";
- 
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Miami" />
+        <Weather defaultCity="Tokyo" />
         <footer>
           This project was coded by{" "}
           <a href="https://meetalondra.netlify.app/" target="_blank">
