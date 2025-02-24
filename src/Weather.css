@@ -43,15 +43,16 @@ body {
   line-height: 19px;
   list-style: none;
 }
-img {
-  margin-right: 5px;
+canvas {
+  margin-right: 10px;
   position: relative;
-  top: -22px;
+  top: 10px;
 }
 .weather-temp {
-  font-size: 50px;
+  font-size: 60px;
 }
 .weather-unit {
+  font-size: 20px;
   position: relative;
-  top: -22px;
+  top: -28px;
 }
