@@ -24,16 +24,17 @@ a:hover {
 
 .App {
   max-width: 700px;
-  margin: 30px auto;
+  margin: 50px auto;
+  padding: 160px 20px;
 }
 
 .App footer {
-  font-size: 11px;
-  margin: 0px 140px;
+  font-size: 12px;
+  margin: 0px 100px;
   opacity: 70% !important;
 }
 
-@media (prefers-color-scheme: light) {
+@media (max-width: 600px) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -43,5 +44,12 @@ a:hover {
   }
   button {
     background-color: #f9f9f9;
+  }
+  .WeatherForecast {
+    display: none;
+  }
+  .App footer {
+    font-size: 8px;
+    margin: 0px 10px;
   }
 }

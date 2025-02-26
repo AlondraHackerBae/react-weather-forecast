@@ -23,7 +23,7 @@ function App() {
             target="_blank"
           >
             GitHub
-          </a>
+          </a>.
         </footer>
       </div>
     </div>
